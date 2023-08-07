@@ -1,0 +1,86 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+  
+  }
+  
+  .job-listings .card {
+    border: 1px solid #ccc;
+  }
+  .job-listings{
+    text-align: center;
+  }
+  .py-4 .column{
+   margin: auto;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .container{
+    display: flex;
+    gap: 50px;
+    padding-top:20px;
+
+  }
+  .header-right{
+    margin: auto;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    padding: 2px 2px 5px 2px;
+  }
+  .header-right h2{
+    padding-top:2px;
+    padding-bottom:2px;
+
+  }
+  .header-left{
+   margin: auto;
+   display: flex;
+   text-align: justify;
+   flex-direction: column;
+   padding-top: 2px;
+   padding: 2px 2px 5px 2px;
+  }
+  .header-left h2{
+    padding-bottom:20px;
+  }
+  .form-label{
+   margin: auto;
+  display: flex;
+   }
+  
+  .container-2{
+    display: flex;
+    gap: 50px;
+    padding-top:20px;
+    margin: 0 auto;
+  }
+  
+
+
+  .apply-btn {
+    width: 100%;
+  }
+  
+  
+  .apply-form {
+    max-width:400px;
+    margin: 0 auto;
+  
+  }
+
+  #myFooter
+  {
+    background-color:cadetblue;
+    color:antiquewhite;
+  }
+  #myFooter .container .row{
+    display: flex;
+    justify-content: space-between;  
+    gap: 60px;
+    align-items: flex-start;
+  }
+ 

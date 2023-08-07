@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiring Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="web.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <header class="bg-dark text-white text-center py-4">
+    <h1>Hiring Website</h1>
+    <nav>
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Jobs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container py-4">
+    <section class="job-listings">
+      <h2 class="text-center mb-4">Job Listings</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Software Engineer</h3>
+              <p class="card-text">Description of job 1.</p>
+              <button class="btn btn-primary apply-btn" data-job="Job Title 1">Apply Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h3 class="card-title">Product Manager</h3>
+                <p class="card-text">Description of job 2.</p>
+                <button class="btn btn-primary apply-btn" data-job="Job Title 1">Apply Now</button>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Data Scientist</h3>
+              <p class="card-text">Description of job 3.</p>
+              <button class="btn btn-primary apply-btn" data-job="Job Title 2">Apply Now</button>
+            </div>
+          </div>
+        </div> 
+        <!-- Add more job listings here -->
+      </div>
+    <div class="container flex">
+      <div class="header-left">
+        <img src="https://cdn.pixabay.com/photo/2017/11/12/20/45/working-in-office-2943747_1280.png"width="250" height="310" alt="">
+      </div>
+      <div class="header-right flex">
+        <h2>About Company</h2>
+       
+          <p>
+           Company name - Fastest Growing K12 Learning destination in India.
+
+Website
+https://coursify.co.in/
+Industry
+E-Learning Providers
+Company size
+51-200 employees
+3 on LinkedIn 
+Includes members with current employer listed as Coursify, including part-time roles.
+Founded
+2020
+          </p>
+    
+        
+
+      </div>
+    </div>
+
+
+
+
+
+
+ <div class="container-2  flex">
+  
+  <div class="header-left flex">
+    <h2>Job Descripation</h2>
+    <p>Introducing, Low-code visibility platform for the Logistics
+       & Supply Chain Industry with a comprehensive list of 
+       ready-made solutions across pre-shipment, in-transit,and post-shipment operations.
+    </p>
+  </div>
+    <div class="header-right">
+      <img src="https://cdn.pixabay.com/photo/2018/03/11/06/14/hiring-3216063_1280.jpg" width="250" height="310" alt="">
+    </div>
+  </div>
+
+
+
+      
+
+    <section class="apply-form">
+      <h2 class="text-center mb-4">Apply for a Job</h2>
+      <form id="application-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="phone No" class="form-label">Phone No:</label>
+          <input type="email" class="form-control" id="phone_no" required>
+        </div>
+
+      
+        <div class="mb-3">
+          <label for="resume" class="form-label">Resume:</label>
+          <input type="file" class="form-control" id="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="Image" class="form-label">Image:</label>
+          <input type="file" class="form-control" id="image" accept=".pdf,.doc,.docx,.jpg" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="text" class="form-label">Highest Education:</label>
+          <input type="text" class="form-control" id="edu" required>
+        </div>
+
+        
+
+          <div class="mb-3">
+            <label for="edu" class="form-label">Education:</label>
+            <input type="text" class="form-control" id="edu" required>
+          </div>
+
+
+
+        <button type="submit" class="btn btn-primary">Submit Application</button>
+      </form>
+    </section>
+  </main>
+
+  <div class="container">
+     
+    <div class="brands-wrap">
+      <marquee>
+    
+      <img src="https://global-uploads.webflow.com/605ad29901132bc543e01d9b/62ebae6e4da7477a33da5800_1-crawfordthomas.svg" loading="lazy" id="w-node-_919a0e51-58d8-b488-f666-30360181ab5f-1de4dbad" alt="Procom - Logo" class="brand-logo">
+      <img src="https://global-uploads.webflow.com/605ad29901132bc543e01d9b/62ebae7ad3e15fadf82d768f_2-Source%20Group%20International.svg" loading="lazy" alt="Matrix - Logo" class="brand-logo">
+      <img src="https://global-uploads.webflow.com/605ad29901132bc543e01d9b/62ebae8391d6bac29f387412_3-Reesmarx.svg" loading="lazy" alt="Q-Community - Logo" class="brand-logo">
+      <img src="https://global-uploads.webflow.com/605ad29901132bc543e01d9b/62ebae8abfa83ad87a90f2ce_4-Flex%20Suisse%20AG.svg" loading="lazy" id="w-node-_919a0e51-58d8-b488-f666-30360181ab62-1de4dbad" alt="BenchmarkIT - Logo" class="brand-logo">
+
+    </marquee>
+  </div>
+  </div>
+
+
+
+
+  <footer id="myFooter">
+
+    <div class="container">
+        <div class="row">
+           
+            <div class="col-sm-3">
+                <h5>Candidates</h5>
+              
+                <li><a target="_blank" rel="noopener">For Candidate</a>
+                </li>
+
+                <li><a target="_blank" rel="noopener">Candidate Sign Up</a>
+                </li>
+
+                <li><a target="_blank" rel="noopener">Invite</a>
+                </li>
+            </div>
+            <div class="col-sm-3">
+                <h5>Employers</h5>
+                
+
+                <li><a target="_blank" rel="noopener">For Employers</a>
+                </li>
+
+                <li><a target="_blank" rel="noopener">Employer Sign Up</a>
+                </li>
+
+                <li><a target="_blank" rel="noopener">Employer FAQ</a>
+                </li>
+            </div>
+            <div class="col-sm-3">
+                <h5>Company</h5>
+                <ul>
+                    <li><a target="_blank" rel="noopener">Careers</a>
+                    </li>
+
+                    <li><a target="_blank" rel="noopener">Careers</a>
+                    </li>
+
+                    <li><a target="_blank" rel="noopener">Careers</a>
+                    </li>
+                
+                </ul>
+            </div>
+
+            <div class="col_sm-3 flex">
+              <a href="https://coursify.co.in/">https://coursify.co.in/</a>
+            </div>
+           
+        </div>
+    </div>
+  
+</footer>
+
+  
+</body>
+</html>
